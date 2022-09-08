@@ -1,0 +1,112 @@
+.section1  
+{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    color: #fff;
+}
+.section1 .layer
+{
+    width: 100%;
+    min-height:80vh;
+    background-color: rgba(195, 54, 54, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+} 
+.section2 h4
+{
+    background-color:  rgba(214, 46, 51, 0.6);
+    color: #fff;
+}
+.section2 p
+{
+    background-color: #ccc;
+    display: none;
+}
+.sideBar
+{
+    width:200px;  
+    position: fixed;
+    left: -128px;
+    top: 0px;
+    
+}
+.sideBar  a
+{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.sideBar ul
+{
+    min-height: 100vh;
+    background-color: #414658;
+}
+.sideBar i 
+{
+    font-size: 30px;
+    cursor: pointer
+}
+.sideBar span
+{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#info
+{
+    cursor: pointer;
+}
+.section3
+{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position:center center;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+.section3 .layer
+{
+    width: 100%;
+    min-height:30vh;
+    background-color: rgba(195, 54, 54, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+} 
+
+.section3 span
+{
+    border: 3px solid #ccc;
+    padding: 50px 80px;
+}
+.section4 h4 , h6
+{
+    color: #444;
+}
+.section4 span
+{
+    text-align: center;
+}
+.section4 .social i 
+{
+border: 1px solid #444;
+padding: 10px;
+margin: 5px;
+}
+.social i:hover
+{
+    background-color: red;
+    color: #fff;
+}
